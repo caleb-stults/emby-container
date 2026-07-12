@@ -3,7 +3,7 @@
 Hosted via Docker Compose on Ubuntu 22.04.
 
 ## Repository Structure
-
+```
 emby-docker/
 ├── .env.example       
 ├── .env               
@@ -11,7 +11,7 @@ emby-docker/
 ├── docker-compose.yml 
 ├── scripts/
 │   └── backup.sh
-
+```
 ## Backups
 The backup script creates a compressed archive of the Emby config to your NAS and retains 30 days of history.
 * Manual Run: `./scripts/backup.sh`
